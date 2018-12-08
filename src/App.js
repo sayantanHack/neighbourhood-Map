@@ -37,6 +37,7 @@ class App extends Component {
       })
       .catch(error => {
         console.log("ERROR!! Geting trouble to fetch API " + error)
+        alert("ERROR!! Geting trouble to fetch API " + error);
       })
 
   }
