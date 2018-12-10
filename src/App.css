@@ -1,0 +1,97 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: #e654e69b;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: medium;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+#map {
+  height: 100vh;
+}
+
+#list{
+  width: 25%;
+  height: 100%;
+  background-color: #2b007a94;
+  z-index: 1;
+  position: absolute;
+  overflow-y: scroll;
+  color: #ffffff;
+  box-sizing: flex;
+}
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (max-width:950px){
+
+  #list{
+    width: 35%;
+    height: 100%;
+    background-color: #2b007a94;
+    z-index: 1;
+    position: absolute;
+    overflow-y: scroll;
+    color: #ffffff;
+    box-sizing: flex;
+  }
+  #list input{
+    width: auto;
+  }
+}
+
+@media screen and (max-width:750px){
+  #list{
+    width: 40%;
+    height: 100%;
+    background-color: #2b007a94;
+    z-index: 1;
+    position: absolute;
+    overflow-y: scroll;
+    color: #ffffff;
+    box-sizing: flex;
+  }
+  #list input{
+    width: 70%;
+  }
+}
+@media screen and (max-width:570){
+  #list{
+    width: 35%;
+    height: 100%;
+    background-color: #2b007a94;
+    z-index: 1;
+    position: absolute;
+    overflow-y: scroll;
+    color: #ffffff;
+    box-sizing: flex;
+  }
+  #list input{
+    width: auto;
+  }
+}
